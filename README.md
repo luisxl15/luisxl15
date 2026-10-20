@@ -46,14 +46,14 @@ Não é emulação de CPU: o código do jogo é traduzido (PowerPC ou ARM32) par
       Super Mario Strikers rodando nativo em arm64, com o mesmo renderizador do port de PC desenhando via Vulkan.<br><br>
       <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
       <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white">
-      <img src="https://img.shields.io/github/stars/luisxl15/Strikers-Android-Port?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/Strikers-Android-Port?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
     <td width="50%" valign="top">
       <h4>🚓 <a href="https://github.com/luisxl15/GTA-IV-RECOMP-XBOX-360">GTA IV — Recomp do Xbox 360</a></h4>
       Recompilação estática do GTA IV do 360 para x86-64: ~36 mil funções traduzidas, chega ao gameplay. Experimental.<br><br>
       <img src="https://img.shields.io/badge/PowerPC→x64-555?style=flat-square">
       <img src="https://img.shields.io/badge/D3D12-0078D4?style=flat-square&logo=windows&logoColor=white">
-      <img src="https://img.shields.io/github/stars/luisxl15/GTA-IV-RECOMP-XBOX-360?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/GTA-IV-RECOMP-XBOX-360?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
   </tr>
   <tr>
@@ -61,13 +61,13 @@ Não é emulação de CPU: o código do jogo é traduzido (PowerPC ou ARM32) par
       <h4>🎸 <a href="https://github.com/luisxl15/Guitar-Hero-3-Recomp-">Guitar Hero III — Recomp</a></h4>
       Guitar Hero III: Legends of Rock do 360 recompilado para PC e Android, com launcher que instala a partir do seu disco.<br><br>
       <img src="https://img.shields.io/badge/PC_+_Android-3DDC84?style=flat-square&logo=android&logoColor=white">
-      <img src="https://img.shields.io/github/stars/luisxl15/Guitar-Hero-3-Recomp-?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/Guitar-Hero-3-Recomp-?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
     <td width="50%" valign="top">
       <h4>🏎️ <a href="https://github.com/luisxl15/Midnight-Club-L.A-RECOMP">Midnight Club: Los Angeles — Recomp</a></h4>
       Midnight Club: LA do 360 traduzido para C++ e compilado nativo para x64, com Xenos → Direct3D 12.<br><br>
       <img src="https://img.shields.io/badge/PowerPC→x64-555?style=flat-square">
-      <img src="https://img.shields.io/github/stars/luisxl15/Midnight-Club-L.A-RECOMP?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/Midnight-Club-L.A-RECOMP?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
   </tr>
   <tr>
@@ -75,13 +75,13 @@ Não é emulação de CPU: o código do jogo é traduzido (PowerPC ou ARM32) par
       <h4>🐍 <a href="https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android">Metal Gear Solid 2 HD — Android ARM64</a></h4>
       A versão do SHIELD (ARM32) recompilada para ARM64 — roda nos Snapdragon e Dimensity que não executam mais 32 bits. Adreno e Mali, 7 idiomas.<br><br>
       <img src="https://img.shields.io/badge/ARM32→ARM64-555?style=flat-square">
-      <img src="https://img.shields.io/github/stars/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
     <td width="50%" valign="top">
       <h4>🛹 <a href="https://github.com/luisxl15/SKATE-3-ANDROID-PORT">Skate 3 — Android</a></h4>
       Port arm64 do Skate 3 Recompiled: Vulkan, SDL3, controles por toque e gameplay funcionando.<br><br>
       <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white">
-      <img src="https://img.shields.io/github/stars/luisxl15/SKATE-3-ANDROID-PORT?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/SKATE-3-ANDROID-PORT?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
   </tr>
   <tr>
@@ -89,13 +89,13 @@ Não é emulação de CPU: o código do jogo é traduzido (PowerPC ou ARM32) par
       <h4>🕹️ <a href="https://github.com/luisxl15/NAMCO-2x6-ANDROID-EMU">Namco System 246/256 EMU</a></h4>
       Emulador Android das placas de arcade da Namco (Tekken 4/5, Soulcalibur, Time Crisis, Taiko…) com JVS, SRAM e recompiladores ARM64.<br><br>
       <img src="https://img.shields.io/badge/Arcade-ff6a3d?style=flat-square">
-      <img src="https://img.shields.io/github/stars/luisxl15/NAMCO-2x6-ANDROID-EMU?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/NAMCO-2x6-ANDROID-EMU?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
     <td width="50%" valign="top">
       <h4>🧟 <a href="https://github.com/luisxl15/Resident-Evil-5-Android-PORT">Resident Evil 5 — Android</a></h4>
       Resident Evil 5 rodando no Android. Em andamento.<br><br>
       <img src="https://img.shields.io/badge/em_andamento-8b949e?style=flat-square">
-      <img src="https://img.shields.io/github/stars/luisxl15/Resident-Evil-5-Android-PORT?style=flat-square&color=ff3d3d&label=★">
+      <img src="https://img.shields.io/github/stars/luisxl15/Resident-Evil-5-Android-PORT?style=flat-square&color=ff3d3d&label=estrelas&logo=github">
     </td>
   </tr>
 </table>
