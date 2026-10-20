@@ -16,7 +16,6 @@
 
 <p align="center">
   <img alt="Seguidores" src="https://img.shields.io/github/followers/luisxl15?label=seguidores&style=flat-square&color=ff3d3d">
-  <img alt="Visitas" src="https://komarev.com/ghpvc/?username=luisxl15&label=visitas&style=flat-square&color=ff6a3d">
 </p>
 
 ---
