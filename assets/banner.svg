@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="luisxl15 — recompilação estática e ports para Android">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090d"/>
+      <stop offset="1" stop-color="#12161f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff3d3d"/>
+      <stop offset="1" stop-color="#ff9a3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#ff3d3d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ff3d3d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+      .sans { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .hex  { fill: #ffffff; fill-opacity: 0.06; font-size: 13px; }
+      .flow { stroke-dasharray: 6 8; animation: flow 1.2s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -28; } }
+      .blink { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .fade { opacity: 0; animation: fade 0.8s ease-out forwards; }
+      .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.35s; } .d3 { animation-delay: 0.6s; }
+      @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+
+  <!-- ruído de desmontagem ao fundo -->
+  <g class="mono hex">
+    <text x="640" y="40">7C0802A6  mflr   r0</text>
+    <text x="640" y="62">F821FF81  stdu   r1,-0x80(r1)</text>
+    <text x="640" y="84">4BFFE1D5  bl     sub_8241A3C0</text>
+    <text x="900" y="286">A9BF7BFD  stp x29, x30, [sp,#-16]!</text>
+    <text x="900" y="308">94012A6C  bl  sub_0041A3C0</text>
+  </g>
+
+  <!-- identidade -->
+  <g class="fade d1">
+    <text x="64" y="118" class="mono" font-size="18" fill="#ff6a3d">~/luisxl15 $<tspan fill="#c9d1d9"> whoami</tspan><tspan class="blink" fill="#ff6a3d"> ▍</tspan></text>
+  </g>
+  <g class="fade d2">
+    <text x="62" y="190" class="sans" font-size="64" font-weight="800" fill="#f0f6fc">Luis<tspan fill="url(#accent)">.</tspan></text>
+  </g>
+  <g class="fade d3">
+    <text x="64" y="232" class="sans" font-size="22" fill="#c9d1d9">Recompilação estática · Ports para Android · Emulação</text>
+    <text x="64" y="264" class="sans" font-size="16" fill="#8b949e">Jogos de Xbox 360, SHIELD e arcade rodando nativos onde nunca rodaram.  🇧🇷</text>
+  </g>
+
+  <!-- pipeline: PowerPC / ARM32 -> C++ -> ARM64 / x64 -->
+  <g class="mono" font-size="14" font-weight="700">
+    <rect x="770" y="128" width="112" height="44" rx="10" fill="#161b22" stroke="#30363d"/>
+    <text x="826" y="155" text-anchor="middle" fill="#8b949e">PowerPC</text>
+
+    <rect x="926" y="128" width="84" height="44" rx="10" fill="#161b22" stroke="#ff6a3d"/>
+    <text x="968" y="155" text-anchor="middle" fill="#ff9a3d">C++</text>
+
+    <rect x="1054" y="128" width="100" height="44" rx="10" fill="#1f1414" stroke="#ff3d3d"/>
+    <text x="1104" y="155" text-anchor="middle" fill="#f0f6fc">ARM64</text>
+
+    <path d="M882 150H926" stroke="url(#accent)" stroke-width="2.5" class="flow"/>
+    <path d="M1010 150H1054" stroke="url(#accent)" stroke-width="2.5" class="flow"/>
+  </g>
+</svg>
